@@ -155,3 +155,5 @@ vite.config.ts.timestamp-*
 .claude/
 # Sample/test PDFs kept out of the repo
 /*.pdf
+# Local-only deployment notes
+/DEPLOY.md
