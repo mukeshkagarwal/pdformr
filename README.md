@@ -4,8 +4,6 @@ PDF Form Editing made easy.
 
 **PDFormr** is a browser-based app for filling PDF forms. Users sign in with **Google or Facebook** (Supabase Auth); PDFs and form data are never uploaded and stay in the browser, in a separate workspace per account.
 
-**Deploying:** see [DEPLOY.md](DEPLOY.md) for Vercel hosting, the Supabase project, the `profiles` users table, and setting up the Google/Facebook OAuth apps.
-
 - Drop or choose a PDF and give it a unique name. The name is the key the form's data is saved under, in IndexedDB.
 - Fields are detected automatically:
   - real AcroForm fields, when the PDF has them;
