@@ -147,3 +147,11 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# --- PDFormr ---
+# Vercel CLI link
+.vercel
+# Local tooling config
+.claude/
+# Sample/test PDFs kept out of the repo
+/*.pdf
